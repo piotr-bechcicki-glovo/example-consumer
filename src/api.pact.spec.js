@@ -16,8 +16,6 @@ describe("API Pact test", () => {
   afterEach(() => mockProvider.verify());
   afterAll(() => mockProvider.finalize());
 
-  console.log("foo");
-
   describe("retrieving a product", () => {
     test("ID 10 exists", async () => {
       // Arrange
