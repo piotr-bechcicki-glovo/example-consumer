@@ -93,7 +93,7 @@ describe("API Pact test", () => {
 
       // Act
       const api = new API(mockProvider.mockService.baseUrl);
-      const product = await api.getProduct("10");
+      const product = await api.getProduct("9");
 
       // Assert - did we get the expected response
       expect(product).toStrictEqual(new Product(expectedProduct));
