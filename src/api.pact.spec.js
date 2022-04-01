@@ -25,6 +25,7 @@ describe("API Pact test", () => {
         name: "28 Degrees",
         price: 25,
         abc: "a",
+        countryCode: "ES",
       };
 
       // Uncomment to see this fail
@@ -96,6 +97,7 @@ describe("API Pact test", () => {
         name: "28 Degrees",
         price: 25,
         abc: "a",
+        countryCode: "ES",
       };
 
       await mockProvider.addInteraction({
