@@ -24,6 +24,7 @@ describe("API Pact test", () => {
         type: "CREDIT_CARD",
         name: "28 Degrees",
         price: 25,
+        abc: "a",
       };
 
       // Uncomment to see this fail
@@ -94,6 +95,7 @@ describe("API Pact test", () => {
         type: "CREDIT_CARD",
         name: "28 Degrees",
         price: 25,
+        abc: "a",
       };
 
       await mockProvider.addInteraction({
